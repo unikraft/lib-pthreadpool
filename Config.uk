@@ -1,0 +1,6 @@
+menuconfig LIBPTHREADPOOL
+    bool "pthreadpool - pthread-based thread pool for C/C++"
+    select LIBFXDIV
+    select LIBPTHREAD_EMBEDDED
+    default n
+
