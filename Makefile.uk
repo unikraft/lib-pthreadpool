@@ -39,15 +39,15 @@ $(eval $(call addlib_s,libpthreadpool,$(CONFIG_LIBPTHREADPOOL)))
 ################################################################################
 # Sources
 ################################################################################
-LIBPTHREADPOOL_VERSION=master
-LIBPTHREADPOOL_URL=https://github.com/Maratyszcza/pthreadpool/archive/master.zip
+LIBPTHREADPOOL_VERSION=76042155a8b1e189c8f141429fd72219472c32e1
+LIBPTHREADPOOL_URL=https://github.com/Maratyszcza/pthreadpool/archive/$(LIBPTHREADPOOL_VERSION).zip
 LIBPTHREADPOOL_PATCHDIR=$(LIBPTHREADPOOL_BASE)/patches
 $(eval $(call fetch,libpthreadpool,$(LIBPTHREADPOOL_URL)))
 
 ################################################################################
 # Helpers
 ################################################################################
-LIBPTHREADPOOL_SUBDIR=pthreadpool-master
+LIBPTHREADPOOL_SUBDIR=pthreadpool-$(LIBPTHREADPOOL_VERSION)
 LIBPTHREADPOOL_SRC=$(LIBPTHREADPOOL_ORIGIN)/$(LIBPTHREADPOOL_SUBDIR)
 
 ################################################################################
