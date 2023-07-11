@@ -1,0 +1,6 @@
+name        := "pthreadpool"
+description := "A portable and efficient thread pool implementation."
+gitrepo     := "https://github.com/Maratyszcza/pthreadpool.git"
+homepage    := "https://github.com/Maratyszcza/pthreadpool/"
+license     := "BSD-2-Clause"
+version     := 7604215 sha256:91c7b00c16c60c96f23d1966d524879c0f6044caf4bc5e9fc06518dda643e07e https://github.com/Maratyszcza/pthreadpool/archive/7604215.tar.gz
